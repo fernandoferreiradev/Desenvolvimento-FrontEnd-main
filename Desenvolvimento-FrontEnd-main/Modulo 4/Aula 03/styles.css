@@ -42,11 +42,11 @@ h1 {
     /* Largura da caixa */
     padding: 20px;
     /* Espaçamento interno (padding) */
-    border: 5px solid #FF5733;
+    border: 5px solid #33ffee;
     /* Borda da caixa */
     margin: 20px auto;
     /* Espaçamento externo (margin) e centralização */
-    background-color: #FFD700;
+    background-color: #ea00ff;
     /* Cor de fundo */
 }
 

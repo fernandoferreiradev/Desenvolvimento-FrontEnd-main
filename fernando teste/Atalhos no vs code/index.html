@@ -1,0 +1,95 @@
+# Definindo um elemento filho
+<h1><!--"h1>p*2"-->
+    <p></p>
+    <p></p>
+</h1>
+<!--Aumentando a hierarquia-->
+<nav><!--nav>ul>li+li-->
+    <ul>
+        <li></li>
+        <li></li>
+    </ul>
+</nav>
+
+# Para incluir no mesmo nível, usa "^"
+<nav><!--nav>ul>li+li^button-->
+    <ul>
+        <li></li>
+        <li></li>
+    </ul>
+    <button></button>
+</nav>
+
+# Atribuindo classe
+<div> <!--div>il.teste-->
+    <il class="teste"></il>
+</div>
+<!-- Podemos apenas incluir a classe sem inserir a tag -->
+<div class="teste_"></div> <!-- ".teste_"-->
+
+# Atribindo ID
+<di><!--di>il#Teste-->
+    <il id="Teste"></il>
+</di>
+<!-- Ou -->
+<div id="teste"></div> <!-- ".teste" -->
+
+# Atribuindo conteúdo do elemento
+<!-- h1{Titulo}>p{paragrafo} -->
+<h1>Titulo
+    <p>paragrafo</p>
+</h1>
+
+# ETAPA 3 LOOPS E ÍNDECE
+
+## Operador de multiplicação
+<nav> <!--nav>ul>li*10-->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</nav>
+outra forma
+<ul><!-- (ul>li)*4 -->
+    <li></li>
+</ul>
+<ul>
+    <li></li>
+</ul>
+<ul>
+    <li></li>
+</ul>
+<ul>
+    <li></li>
+</ul>
+
+# "Variável de índice" e multiplicando contagens
+<nav> <!-- nav>ul>li.item$*10 -->
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+    </ul>
+</nav>
+
+Atribuindo propriedade de atrasos e com contagens
+<li style="transition-delay: 1s"></li>
+<li style="transition-delay: 2s"></li>
+<li style="transition-delay: 3s"></li>
+<li style="transition-delay: 4s"></li>
+<li style="transition-delay: 5s"></li>
+<li style="transition-delay: 6s"></li>
+<li style="transition-delay: 7s"></li>
+<li style="transition-delay: 8s"></li>
+<li style="transition-delay: 9s"></li>
+<li style="transition-delay: 10s"></li>

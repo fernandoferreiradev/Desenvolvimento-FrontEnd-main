@@ -11,8 +11,8 @@ body {
     margin: 0 auto; /* Centralizando o contêiner */
     background-color: white; /* Cor de fundo branca */
     padding: 20px; /* Espaçamento interno */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1); /* Sombra ao redor */
     text-align: center; /* Centralizando o texto */
 }
 
